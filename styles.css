@@ -19,6 +19,7 @@
     --text-color: black;
     --bg-url: url(./assets/bg-mobile-light-green.jpg);
     --surface-color: rgba(0, 0, 0, 0.05);
+    --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --switch-bg-url: url(./assets/sunny-outline.svg);
     --highlight-color: rgba(0, 0, 0, 0.5);
