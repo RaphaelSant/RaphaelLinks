@@ -34,9 +34,6 @@ body {
     /* background: (color image) reapet position/size */
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 body * {
@@ -45,13 +42,11 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin-top: 56px auto 0px;
     padding: 0 24px;
-
-    border: 1px solid var(--text-color);
-    border-radius: 15px;
-    margin: auto;
+    margin: 56px auto 0px;
 }
 
 /* Perfil e @ */
@@ -189,4 +184,15 @@ ul li a:hover {
 footer {
     padding: 24px 0px;
     text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url('./assets/bg-desktop-green.jpg');
+    }
+
+    .light {
+        --bg-url: url('./assets/bg-desktop-light-green.jpg');
+    }
 }
